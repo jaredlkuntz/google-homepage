@@ -1,0 +1,124 @@
+ {
+	border: 1px solid red;
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+.logo_container {
+	width: 30%;
+	margin: auto;
+	align-self: center;
+
+}
+
+#logo {
+	margin: auto;
+	margin-top: 200px;
+	display: block;
+
+}
+
+.navbar {
+	position: relative;
+
+	width: 100%;
+	margin: 8px;
+}
+
+
+
+.navlist {
+	margin-right: 20px;
+}
+
+.navlist li {
+	display: inline;
+	float: right;
+	margin: 8px;
+	font-size: .8em;
+
+}
+
+
+
+
+
+.footer ul {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	width: 100%;
+}
+
+.footer li{
+	color: #fff;
+	display: inline;
+	float: left;
+	margin: 4px 8px;
+	padding: 4px 8px;
+	font-size: .8em;	
+	background-color: #eee;
+}
+
+.footer a:link {
+	color: #ccc;
+}
+
+.footer a:visited {
+	color: #666;
+}
+#account {
+	margin-top: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000;
+}
+.search_bar, .buttons {
+	position: relative;
+	text-align: center;
+	margin: auto;
+}
+
+#search {
+	height: 40px;
+	width: 600px;
+	margin-top: 20px;	
+    border: 0.5px solid #ddd;
+    
+
+}
+
+#search:hover {
+	box-shadow: 0px 6px 2px 1px #eee;
+}
+.button {
+	color: #777;
+	margin-top: 20px;
+	
+	background-color: #eee;
+	border-radius: 3px;
+	border-width: 0;
+	height: 35px;
+	width: 170px;
+}
+
+.button:hover {
+	border: 1px solid #000;
+	
+	font-color: #000;
+	font-weight: bolder;
+
+}
